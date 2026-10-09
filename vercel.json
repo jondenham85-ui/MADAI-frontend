@@ -1,8 +1,9 @@
+
 {
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://madai-backend.onrender.com/api/:path\*"
+      "destination": "https://madai-backend.onrender.com/api/:path*"
     },
     {
       "source": "/((?!api/).*)",
